@@ -1,0 +1,29 @@
+{
+  "name": "harvest-lot-accountability",
+  "version": "1.0.0",
+  "description": "Harvest Lot Freshness and Spoilage Accountability Register - Track produce from field to dispatch with lineage, condition monitoring, aging thresholds, and loss accountability",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "agritech",
+    "harvest-lots",
+    "freshness-index",
+    "spoilage-accountability",
+    "cold-chain",
+    "lineage-tracking"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.23.1"
+  }
+}

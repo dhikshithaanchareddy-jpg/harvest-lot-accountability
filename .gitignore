@@ -1,0 +1,19 @@
+# Environment variables and secrets
+.env
+.env.local
+*.env
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
